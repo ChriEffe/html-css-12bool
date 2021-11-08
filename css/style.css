@@ -13,13 +13,10 @@ html  {
     color: white;
     line-height: 3em;
     text-align: center;
-}
-
-/* utilities */
-.row  {
     background-color: #006cfa;
 }
 
+/* utilities */
 .nested  {
     background-color: #00e165;
     border: 1px solid #006cfa;
@@ -33,6 +30,30 @@ html  {
     margin-bottom: 2em;
 }
 
-.ht  {
+.ht3  {
     height: 3em;
+}
+
+.ht6  {
+    height: 6em;
+}
+
+.just-center  {
+    justify-content: center;
+}
+
+.align-center  {
+    align-items: center;
+}
+
+.align-end  {
+    align-items: flex-end;
+}
+
+.space-a  {
+    justify-content: space-around;
+}
+
+.space-b  {
+    justify-content: space-between;
 }
