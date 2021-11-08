@@ -8,13 +8,22 @@ html  {
     font-size: 100%;
 }
 
-.row  {
-    background-color: #006cf9;
-}
-
 [class*=col]  {
     border: 1px solid white;
     color: white;
     line-height: 3em;
     text-align: center;
+}
+
+.row  {
+    background-color: #006cfa;
+}
+
+.nested  {
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+}
+
+.padding  {
+    padding: 1em;
 }
